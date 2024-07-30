@@ -123,9 +123,8 @@ class Ui_MainWindow(object):
         self.show_tien_tra.setText(str(sumprice))
 
         msg=QtWidgets.QMessageBox()
-        msg.setInformativeText(f'Tong tien phai tra:', sumprice)
+        msg.setInformativeText(f'Tong tien phai tra:{sumprice}')
         msg.exec()
-
 
 
 
